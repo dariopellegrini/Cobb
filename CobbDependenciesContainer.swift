@@ -7,8 +7,8 @@
 
 import Foundation
 
-public class DependenciesContainer {
-    static var shared = DependenciesContainer()
+public class CobbDependenciesContainer {
+    static var shared = CobbDependenciesContainer()
     private init() {}
     
     private var singletons = [String:Any]()

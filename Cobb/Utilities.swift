@@ -7,14 +7,14 @@
 
 import Foundation
 
-public func configureDependencies(_ closure: (DependenciesContainer) -> ()) {
-    closure(DependenciesContainer.shared)
+public func cobbDream(_ closure: (CobbDependenciesContainer) -> ()) {
+    closure(CobbDependenciesContainer.shared)
 }
 
-public func configureDependencies(_ closure: () -> Dependencies) {
-    closure().build()
+public func cobbDream(_ closure: () -> Dependencies) {
+    closure().dream()
 }
 
 public func inject<T: Any>() -> T {
-    DependenciesContainer.shared.get()!
+    CobbDependenciesContainer.shared.get()!
 }

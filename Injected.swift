@@ -7,7 +7,9 @@
 
 import Foundation
 
-@propertyWrapper struct Injected<T> {
+@propertyWrapper public struct Injected<T> {
     let currentValue: T = inject()
     public var wrappedValue: T { get { currentValue } }
+    
+    public init() {}
 }

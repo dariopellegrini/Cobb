@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Swift dependency injection"
+  spec.description  = "Dependency injection library for Swift"
 
   spec.homepage     = "https://github.com/dariopellegrini/Cobb"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -72,9 +72,6 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
-  spec.dependency 'CouchbaseLite-Swift'
-  spec.dependency 'RxSwift'
-
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
@@ -92,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files = "Cobb/**/*.{swift}"
+  spec.source_files = "**/*.{swift}"
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
