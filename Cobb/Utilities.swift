@@ -16,5 +16,8 @@ public func cobbDream(_ closure: () -> Dependencies) {
 }
 
 public func inject<T: Any>() -> T {
-    CobbDependenciesContainer.shared.get()!
+    if let resolved: T = CobbDependenciesContainer.shared.get() {
+        return resolved
+    }
+    fatalError("Dependency \(T.self) not resolved correctly")
 }
