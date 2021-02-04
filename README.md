@@ -35,7 +35,7 @@ struct Repository {
 }
 ```
 
-Using Cobb builders it's possible to define dependencies of application layers.
+Using Cobb builders it's possible to define dependencies of application's layers.
 ```swift
 Dependencies {
   Factory { Database() }
@@ -77,4 +77,4 @@ Dario Pellegrini, pellegrini.dario.1303@gmail.com
 
 ## License
 
-StorageDone-iOS is available under the MIT license. See the LICENSE file for more info.
+Cobb is available under the MIT license. See the LICENSE file for more info.
