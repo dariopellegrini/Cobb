@@ -55,7 +55,7 @@ class FirstViewController: UIViewController {
     DispatchQueue.global(qos: .utility).async {
       let user = repository.login(username: "username@domanin.com", password: "password")
       
-      Dispatch.main.async {
+      DispatchQueue.main.async {
         // Update UI
       }
     }
