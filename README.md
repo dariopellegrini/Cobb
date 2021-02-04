@@ -63,10 +63,8 @@ class FirstViewController: UIViewController {
 }
 ```
 
-`injected()` function resolve automatically dependencies defined in `Dependencies` builder.  
+`injected()` resolves automatically dependencies defined in `Dependencies` builder.  
 `Factory` defines a dependency that when resolved returns a new instance.  
-`Singleton` defines a dempendency that behavies like a singleton, so when resolved returns the same instance through the whole application.  
-`Singleton` defines a dempendency that behavies like a singleton, so when resolved returns the same instance through the whole application.   
 `Singleton` defines a dempendency that behavies like a singleton, so when resolved returns the same instance through the whole application.  
 `dream()` actually configure dependencies.  
 `@Injected` resolves the dependency and return an instance of the specified type.
