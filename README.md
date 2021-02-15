@@ -4,13 +4,13 @@ A light Swift library to manage dependency injection easily.
 ## Installation
 
 ### CocoaPod
-Install with CocoaPod.
+Install with [CocoaPod](https://cocoapods.org/pods/Cobb).
 ```
 pod 'Cobb'
 ```
 
 ### Swift Package Manager
-Install simply adding `Cobb` GitHub link to Xcode project throught Swift Package Manager.
+Install simply adding `Cobb` GitHub link to Xcode project throught [Swift Package Manager](https://swift.org/package-manager).
 ```
 https://github.com/dariopellegrini/Cobb
 ```
