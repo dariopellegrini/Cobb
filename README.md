@@ -10,7 +10,7 @@ pod 'Cobb'
 ```
 
 ### Swift Package Manager
-Install simply adding `Cobb` GitHub link to Xcode project throught [Swift Package Manager](https://swift.org/package-manager).
+Install `Cobb` simply adding GitHub link to Xcode project throught [Swift Package Manager](https://swift.org/package-manager).
 ```
 https://github.com/dariopellegrini/Cobb
 ```
