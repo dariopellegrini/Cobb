@@ -2,6 +2,8 @@
   <img src="https://github.com/dariopellegrini/Cobb/raw/main/Cobb.png">
 </p>
 
+<p align="center"><strong>Swift dependency injection</strong></p>
+
 # Cobb
 A light Swift library to manage dependency injection easily.
 
