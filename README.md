@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/dariopellegrini/Cobb/raw/main/Cobb.png">
+  <img src="https://github.com/dariopellegrini/Cobb/raw/main/CobbBanner.png">
 </p>
 
 <p align="center"><strong>Swift dependency injection</strong></p>
