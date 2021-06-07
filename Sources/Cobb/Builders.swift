@@ -7,7 +7,7 @@
 
 import Foundation
 
-@_functionBuilder
+@resultBuilder
 public struct DefinitionsBuilder {
     public static func buildBlock(_ definitionsContainers: DefinitionContainer...) -> [DefinitionContainer] {
         return definitionsContainers

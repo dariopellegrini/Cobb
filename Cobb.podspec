@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "Cobb"
-spec.version      = "0.2.1"
+spec.version      = "0.2.2"
 spec.summary      = "Swift dependency injection"
 spec.description  = <<-DESC
 Dependency injection library for Swift
